@@ -9,6 +9,7 @@ openshift_gcp_node_group_type: master
 openshift_gcp_ssh_private_key: ''
 
 openshift_gcp_project: ''
+openshift_gcp_network_project: "{{ openshift_gcp_project}}"
 openshift_gcp_clusterid: default
 openshift_gcp_region: us-central1
 openshift_gcp_zone: us-central1-a

@@ -305,6 +305,8 @@ debug_level=2
 # defined.
 # openshift_gcp_project is the project-id
 #openshift_gcp_project=
+# openshift_gcp_network_project is the project-id where the shared network lives
+#openshift_gcp_network_project=
 # openshift_gcp_prefix is a unique string to identify each openshift cluster.
 #openshift_gcp_prefix=
 #openshift_gcp_multizone=False
